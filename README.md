@@ -1,7 +1,8 @@
 ## Chrome Custom Tabs Guide
 #### 참조링크
 https://developer.chrome.com/multidevice/android/customtabs <br>
-http://sirubomber.tistory.com/38
+http://sirubomber.tistory.com/38<br>
+https://github.com/GoogleChrome/custom-tabs-client
 ### dependency 추가
 ```html
 dependencies {
