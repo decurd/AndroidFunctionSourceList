@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.decurd.androidfunctionsourcelist.activity.BroadcastReceiverActivity;
 import com.decurd.androidfunctionsourcelist.activity.CallbackActivity;
+import com.decurd.androidfunctionsourcelist.activity.ChromeCustomTabsActivity;
 import com.decurd.androidfunctionsourcelist.activity.TedpermissionActivity;
 
 import java.util.ArrayList;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         addItem("권한체크", "TedPermission", TedpermissionActivity.class);
         addItem("콜백함수", "Interaction Test", CallbackActivity.class);
         addItem("브로드캐스트 리시버", "Local 브로드캐스트 & Notification Test", BroadcastReceiverActivity.class);
+        addItem("크롬커스텀탭스", "Chrome Custom Tabs", ChromeCustomTabsActivity.class);
 
         // Collections.reverse(mDataList);
 

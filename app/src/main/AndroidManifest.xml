@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".activity.TedpermissionActivity" />
         <activity android:name=".activity.CallbackActivity" />
-        <activity android:name=".activity.BroadcastReceiverActivity"></activity>
+        <activity android:name=".activity.BroadcastReceiverActivity" />
+        <activity android:name=".activity.ChromeCustomTabsActivity"></activity>
     </application>
 
 </manifest>
