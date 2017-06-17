@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.TedpermissionActivity"></activity>
+        <activity android:name=".activity.TedpermissionActivity" />
+        <activity android:name=".activity.CallbackActivity"></activity>
     </application>
 
 </manifest>

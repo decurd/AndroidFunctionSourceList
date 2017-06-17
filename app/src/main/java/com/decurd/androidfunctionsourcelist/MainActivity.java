@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.decurd.androidfunctionsourcelist.activity.CallbackActivity;
 import com.decurd.androidfunctionsourcelist.activity.TedpermissionActivity;
 
 import java.util.ArrayList;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         // 데이터
         mDataList = new ArrayList<>();
         addItem("권한체크", "TedPermission", TedpermissionActivity.class);
+        addItem("콜백함수", "Interaction Test", CallbackActivity.class);
 
         // Collections.reverse(mDataList);
 
