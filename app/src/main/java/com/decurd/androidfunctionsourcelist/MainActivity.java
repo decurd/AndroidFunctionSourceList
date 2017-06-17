@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.decurd.androidfunctionsourcelist.activity.BroadcastReceiverActivity;
 import com.decurd.androidfunctionsourcelist.activity.CallbackActivity;
 import com.decurd.androidfunctionsourcelist.activity.TedpermissionActivity;
 
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         mDataList = new ArrayList<>();
         addItem("권한체크", "TedPermission", TedpermissionActivity.class);
         addItem("콜백함수", "Interaction Test", CallbackActivity.class);
+        addItem("브로드캐스트 리시버", "Local 브로드캐스트 & Notification Test", BroadcastReceiverActivity.class);
 
         // Collections.reverse(mDataList);
 

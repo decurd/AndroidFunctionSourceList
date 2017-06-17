@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.TedpermissionActivity" />
-        <activity android:name=".activity.CallbackActivity"></activity>
+        <activity android:name=".activity.CallbackActivity" />
+        <activity android:name=".activity.BroadcastReceiverActivity"></activity>
     </application>
 
 </manifest>
