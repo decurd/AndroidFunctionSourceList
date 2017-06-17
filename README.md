@@ -2,7 +2,8 @@
 #### 참조링크
 https://developer.chrome.com/multidevice/android/customtabs <br>
 http://sirubomber.tistory.com/38<br>
-https://github.com/GoogleChrome/custom-tabs-client
+https://github.com/GoogleChrome/custom-tabs-client<br>
+(세션관련 소스와 BottomBar 소스도 확인 가능)
 ### dependency 추가
 ```html
 dependencies {
